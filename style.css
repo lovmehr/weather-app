@@ -1,0 +1,152 @@
+@charset "UTF-8";
+:root {
+  --primary-color: #3d8af0;
+}
+* {
+  font-family: "Roboto", serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  direction: ltr;
+}
+a {
+  text-decoration: none;
+}
+ul,
+li {
+  list-style: none;
+}
+main {
+  max-width: 900px;
+  height: 530px;
+  border: 3px solid var(--primary-color);
+  border-radius: 10px;
+  margin: 55px auto;
+  background-color: #ffff;
+  position: relative;
+}
+body {
+  width: 100%;
+  height: 100%;
+  background: rgb(136, 212, 241);
+  background: linear-gradient(
+    90deg,
+    rgba(136, 212, 241, 1) 0%,
+    rgba(215, 252, 255, 1) 100%
+  );
+}
+section.search-bar form.search input {
+  width: 80%;
+  height: 42px;
+  margin: 21px 10px 0 21px;
+  border: 2px solid var(--primary-color);
+  border-radius: 6px;
+  background-color: #eff6ff;
+}
+input::placeholder {
+  color: var(--primary-color);
+  opacity: 0.5;
+  padding-left: 8px;
+  font-size: 17px;
+}
+section.search-bar form.search button {
+  width: 115px;
+  height: 42px;
+  background-color: var(--primary-color);
+  color: white;
+  font-size: 15px;
+  border: none;
+  border-radius: 6px;
+}
+section.search-bar form.search button:hover {
+  cursor: pointer;
+  background-color: #ffffff;
+  color: var(--primary-color);
+  border: 2px solid var(--primary-color);
+}
+section.city-name {
+  color: var(--primary-color);
+  margin: 15px 21px;
+  line-height: 33px;
+  font-size: 17px;
+}
+section.city-name h2 {
+  font-size: 30px;
+}
+section.weather img {
+  width: 115px;
+  height: 115px;
+  vertical-align: -23px;
+  margin-left: 15px;
+}
+section.weather h1 {
+  display: inline;
+  font-size: 78px;
+  font-weight: bold;
+}
+section.weather h1 sup {
+  font-size: 20px;
+}
+section.weather p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: var(--primary-color);
+  font-size: 17px;
+  line-height: 27px;
+}
+section.weather img[alt="fall"] {
+  width: 200px;
+  height: 220px;
+  opacity: 1;
+  position: absolute;
+  right: 65px;
+  top: 119px;
+}
+/* section.week div.sunday img {
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  bottom: 42px;
+  left: 33px;
+}
+section.week div.sunday p {
+  font-size: 15px;
+}
+section.week div.sunday p:nth-of-type(1) {
+  position: absolute;
+  bottom: 110px;
+  left: 60px;
+} */
+ul li img {
+  width: 60px;
+  height: 60px;
+}
+ul li {
+  position: absolute;
+  bottom: 25px;
+  opacity: 0.6;
+}
+ul li.fri {
+  left: 32px;
+}
+ul li p {
+  font-size: 16px;
+  text-align: center;
+}
+ul li.sat {
+  left: 182px;
+}
+ul li.sun {
+  left: 332px;
+}
+ul li.mon {
+  left: 482px;
+}
+ul li.tue {
+  left: 632px;
+}
+ul li.wed {
+  left: 782px;
+}
