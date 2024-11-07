@@ -104,21 +104,6 @@ section.weather img[alt="fall"] {
   right: 65px;
   top: 119px;
 }
-/* section.week div.sunday img {
-  width: 70px;
-  height: 70px;
-  position: absolute;
-  bottom: 42px;
-  left: 33px;
-}
-section.week div.sunday p {
-  font-size: 15px;
-}
-section.week div.sunday p:nth-of-type(1) {
-  position: absolute;
-  bottom: 110px;
-  left: 60px;
-} */
 ul li img {
   width: 60px;
   height: 60px;
