@@ -85,7 +85,7 @@ section.weather h2 {
   font-size: 78px;
   font-weight: bold;
 }
-section.weather h1 sup {
+section.weather h2 sup {
   font-size: 20px;
 }
 section.weather p {
