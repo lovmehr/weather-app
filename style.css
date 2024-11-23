@@ -24,6 +24,7 @@ main {
   margin: 55px auto;
   background-color: #ffff;
   position: relative;
+  box-shadow: 0px 0px 3px 0px var(--primary-color);
 }
 body {
   width: 100%;
